@@ -1,0 +1,113 @@
+* {
+    width: 100%;
+    margin: 0px;
+    max-width: 100%;
+    background-color: #ffffff;
+}
+
+main {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    text-align: left;
+    height: 100%;
+}
+
+header {
+    width: 95%;
+    height: 60px;
+    display: flex;
+    padding-left: 5%;
+    align-items: center;  
+    flex-direction: row;
+    color: white;
+    background: linear-gradient(-50deg,#6e54ff,#5cbefb);
+    background-size: 100% 200%;
+}
+
+table {
+    margin-top: 30px;
+}
+
+.content {
+    flex: 1 0 21%;
+    width: 100px;
+    height: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 1px 0 rgba(53, 53, 53, 0.76);
+    transition: width 200ms, height 200ms;
+    background: linear-gradient(-50deg,#ffffff, #6e54ff);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content:hover {
+    width: 110px;
+    height: auto + 10px;
+}
+
+.subject {
+    text-align: left;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+}
+
+.grade-average {
+    width:auto;
+    padding-right: 5px;
+    text-align: right;
+    display: flex;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+}
+
+.grade {
+    float: right;
+    color: white;
+    background-color: transparent;
+}
+
+.grade > div {
+    padding-right: 5px;
+    width: auto;
+    float: right;
+    color: white;
+    background-color: transparent;
+}
+
+.grade > div > button {
+    width: 45px;
+    color: white;
+    background-color: transparent;
+}
+
+.grade-add {
+    padding-left: 37.5%;
+    width: auto;
+    padding-right: 5px;
+    color: white;
+    background-color: transparent;
+}
+
+.grade-add > input {
+    width: 45px;
+    float: right;
+    background-color: white;
+}
+
+#app-title {
+    flex: 1;
+    background-color: transparent;
+}
